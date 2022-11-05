@@ -1,0 +1,22 @@
+package JavaPatikasi;
+import java.util.Scanner;
+
+/**
+ * @author Eda Patoğlu
+ *
+ */
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Lütfen boyunuzu (metre cinsinde) giriniz : " );
+        double boy=sc.nextDouble();    
+        System.out.println("Lütfen kilonuzu giriniz :  " );
+        int kilo = sc.nextInt();
+        double indeks=kilo/(boy*boy);
+	    System.out.println("Vücut Kitle İndeksiniz : "+indeks);
+	}
+
+}
